@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;900&family=Rubik+Bubbles&family=Shadows+Into+Light&display=swap');
+
+body{
+    background: #f3ece4;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f3ece4;
+    color: #d84339;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.entry{
+    background: #373234;
+    width: 400px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+#entryHolder{
+    color: #f3ece4;
+}
+
+#icon{
+    height: 70px;
+    width: auto;
+}
+
+#feels{
+    margin-top: 10px;
+}
+
+#divider {
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    font-weight: 900;
+    display: block;
+    font-size: 27px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 400px;
+    background:#373234;
+    color: #f3ece4;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    border: none;
+    border-radius: 40px;
+    padding-left: 20px;
+}
+
+button{
+    width: 300px;
+    height: 60px;
+    background: #e8dccc;
+    color: #373234;
+    font-size: 26px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 2px 4px 5px #444;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: #d84339;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 60px;
+}
+
+textarea{
+    background:#373234;
+    color: #e8dccc;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f3ece4; 
+    font-family: 'Inconsolata', monospace;
+    opacity: 70%;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f3ece4; 
+    font-family: 'Inconsolata', monospace;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f3ece4; 
+    font-family: 'Inconsolata', monospace;
+
+} 
