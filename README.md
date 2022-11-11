@@ -6,7 +6,7 @@ Author: Tatjana
 Used technologies: html, css, javascript, node (express, body-parser, cors)
 
 ## How to start
-1. install node, if you haven't alread
+1. install **node**, if you haven't alread
 2. open a new terminal (cmd)
 3. check your node version: *node -v*
 4. open the project folder and copy the path
