@@ -11,9 +11,9 @@ Used technologies: html, css, javascript, node (express, body-parser, cors)
 3. check your node version: *node -v*
 4. open the project folder and copy the path
 5. change the directory to the folder path: *cd path*
-6. install express: *ndm install express*
-7. install body-parser: *ndm install body-parser*
-8. install cors: *ndm install cors*
+6. install express: *npm install express*
+7. install body-parser: *npm install body-parser*
+8. install cors: *npm install cors*
 
 ### then:
 1. start a local server: *node server.js*
